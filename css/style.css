@@ -1,0 +1,107 @@
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: Roboto;
+    font-weight: 300; 
+}
+.slider .indicators{
+    z-index: 10;
+    bottom: 50px; 
+}
+.left-slider{
+    width: 15%;
+    height: 400px;
+   left: 0;
+    z-index: 10;
+    background: transparent;
+    position: absolute;
+}
+.right-slider{
+    content: ">";
+    text-align: center;
+    width: 15%;
+    height: 400px;
+   right:0;
+    z-index: 10;
+    background: transparent;
+    position: absolute;
+}
+.right-slider:hover, .left-slider:hover {
+    background: #ffffff;
+    opacity: 0.2;
+}
+
+
+.container-plus{
+    padding-top: 30px;
+}
+.card-header{
+    float:left;
+    text-align: center;
+    /*background: #e6ee9c ;*/
+    padding:15px;
+    margin:  -20px 15px 0;
+    border-radius: 3px;
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+
+}
+.card .card-content{
+    text-align:right;
+    padding:15px 10px 0 0;
+}   
+
+
+.card .card-content .category {
+    margin-bottom: 0;
+}
+p {
+     margin: 0 0 11px; 
+}
+.card .card-footer {
+    margin: 0 20px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #eeeeee;
+}
+
+.card .card-footer .stats{
+    line-height: 22px;
+    color: #999999;
+    font-size: 12px;
+}
+.card .card-footer .stats .material-icons {
+    position: relative;
+    top: 4px;
+    font-size: 16px;
+}
+
+
+/* modals */
+
+.modal {
+    width: 40%;
+}
+.modal .modal-content {
+     padding: 10px; 
+}
+.modal form {
+     margin-bottom: 2.5rem; 
+}
+
+.modal .row {
+    margin-bottom: 0; 
+}
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"] {
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #9e9e9e;
+}
+
+input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus, textarea:focus{
+    border: none; 
+    box-shadow: none; 
+}
